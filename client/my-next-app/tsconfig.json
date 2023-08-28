@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Set the ECMAScript target version
+    "module": "ESNext", // Use ES modules for better compatibility
+    "jsx": "preserve", // Preserve JSX for TypeScript
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Enable default import behavior
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file naming
+    "noEmit": true, // Don't emit JavaScript files during TypeScript build
+    "isolatedModules": true, // Enable stricter checking for individual files
+    "strictNullChecks": true // Enable strict null checks for better safety
+    ,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "incremental": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "pages/**/*.ts",
+    "pages/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
